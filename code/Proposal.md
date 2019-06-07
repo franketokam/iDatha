@@ -1,7 +1,7 @@
 # NAME : iDATHA (data in Xhosa)
-================================================================================
+===============================================================================
 
-##Project Overview
+## Project Overview
 ---------------------------------------------------------------
 
 **What are the major features of your web application?**
@@ -19,7 +19,8 @@ Create a simple interface for organization case manager, and allow manager to vi
 **What libraries or frameworks will you use?**
 
 ```
-I'm planning on using  Bootstrap for styling and Django as a back end. (the ultimate goal is a Desktop app with Electron JS )
+I'm planning on using  HTML, Bootstrap, ChartJs for charts and Django as a back end.
+(the initial goal was a Desktop app with Electron JS)
 ```
 ## Features
 ---------------------------------------------------------------
@@ -59,9 +60,10 @@ Staff user will login and be authenticated. (No signup/ password assigned at fir
 |                  |  - outcomes     | sections with add button to add form                   |
 |                  |  - exit         | sections with add button to add form                   |
 |                  |  - outcomes     | sections with add button to add form                   |
-
+```
 
 **How will their actions correspond to events on the back-end?**
+
 ```
 1. Log in : sign up authentification
 2. get customer record and populate customer tab
@@ -70,7 +72,7 @@ Staff user will login and be authenticated. (No signup/ password assigned at fir
 5. get request to view data on the page as we add
 ```
 
-**Data Model**
+###### Data Model
 ```
 1. 'Profile'
 2. 'Activity' 
@@ -79,7 +81,7 @@ Staff user will login and be authenticated. (No signup/ password assigned at fir
 5. 'file'
 ```
 
-**Schedule**
+###### Schedule
 ```
 Week 1: 
     - [x] Set up repository
