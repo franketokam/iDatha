@@ -1,8 +1,8 @@
 # NAME : iDATHA (data in Xhosa)
-===============================================================================
+
 
 ## Project Overview
----------------------------------------------------------------
+
 
 **What are the major features of your web application?**
 
@@ -23,7 +23,7 @@ I'm planning on using  HTML, Bootstrap, ChartJs for charts and Django as a back 
 (the initial goal was a Desktop app with Electron JS)
 ```
 ## Features
----------------------------------------------------------------
+
 
 ###### User stories
 
@@ -50,7 +50,7 @@ activities, outcomes, customer file submitted.
 | 2. Home page     | - Home          | Body displays a welcome message.                       |
 |                  | - Customer      | - Name, last name or id input fields for search        |
 |                  |                 | - An "add" button to add new customers                 |
-|                  |                 |   > on click adds input fields and save button         |
+|                  |                 | - on click adds input fields and save button         |
 |                  | - Report        | - Count of customers                                   |
 |                  |                 | - chart of employed at intake vs at exit               |
 |                  |                 | - chart in disconnected from school at intake vs exit  |
