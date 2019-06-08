@@ -35,21 +35,22 @@ I'm planning on using  HTML, Bootstrap, ChartJs for charts and Django as a back 
 
 ```
 Staff user will login and be authenticated. (No signup/ password assigned at first)
-> Once logged in they can create new customer profile. They can view the profile and add activities, outcomes, customer file submitted.
-> Staff can also view data dashboard with program key outcomes 
-> Staff cannot edit the data once entered, but Admin can
+- Once logged in they can create new customer profile. They can view the profile and add 
+activities, outcomes, customer file submitted.
+- Staff can also view data dashboard with program key outcomes 
+- Staff cannot edit the data once entered, but Admin can
 ```
 
 **What will the user see on each page? What can they input and click and see?**
 
-```
-| Pages            |  Tabs           | Tasks                                                  |
+
+| Pages            |  Tabs           | Task/action                                                  |
 | ---------------  | -------------   | -----------------------------------------------------  | 
-| 1. Log in        | - Login inputs  |                                                        |
-| 2. Landing page  | - Home          | Body displays a welcome message.                       |
+| 1. Login page    | Login inputs    |                                                        |
+| 2. Home page     | - Home          | Body displays a welcome message.                       |
 |                  | - Customer      | - Name, last name or id input fields for search        |
 |                  |                 | - An "add" button to add new customers                 |
-|                  |                 |   > on click add input fields and save button          |
+|                  |                 |   > on click adds input fields and save button         |
 |                  | - Report        | - Count of customers                                   |
 |                  |                 | - chart of employed at intake vs at exit               |
 |                  |                 | - chart in disconnected from school at intake vs exit  |
@@ -60,7 +61,7 @@ Staff user will login and be authenticated. (No signup/ password assigned at fir
 |                  |  - outcomes     | sections with add button to add form                   |
 |                  |  - exit         | sections with add button to add form                   |
 |                  |  - outcomes     | sections with add button to add form                   |
-```
+
 
 **How will their actions correspond to events on the back-end?**
 
@@ -82,24 +83,28 @@ Staff user will login and be authenticated. (No signup/ password assigned at fir
 ```
 
 ###### Schedule
-```
+
 Week 1: 
-    - [x] Set up repository
-    - [ ] Start new Django project
-    - [ ] Start apps account and profile
-    - [ ] design models 
-    - [ ] add urls
+    day 1-2 
+    - [x] Loging page (model {user}, forms {sign in}, views {signin, signout, changepassword}, template {base, frontpage})
+    day 3-7 
+    - [ ] Home page: Home tab (company logo and welcome <h1>)
+    - [ ] Home page: Customer tab (model {profile,activity..}, forms {Searchform, Addform}, views {search, add}, template {customer})
+    - [ ] Home page: report tab (model {..}, views {}, template {canvas})
     
-      
+
 Week 2:
-    - [ ] add views 
-    - [ ] add templates (login, home with tabs)
-    - [ ] add Javascript
-    - [ ] link view to templates :tired_face:
-       
+    - [ ] Home page Customer tab .. (model {profile,activity..}, forms {Demographic,activities,files, outcomes,exit}, views {..}, template {customer})
+    - [ ] Home page Customer tab demographic tab
+    - [ ] Home page Customer tab activities tab
+    - [ ] Home page Customer tab   files tab 
+
+
 Break:
-    Add with CSS
+    Add CSS
 
 Week 3:
-    Polish, troubleshoot, etc :clap:
-```
+    - [ ] Home page Customer tab   outcomes tab 
+    - [ ] Home page Customer tab   exit tab 
+    Polish, troubleshoot, etc 
+
