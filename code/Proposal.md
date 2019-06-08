@@ -83,7 +83,7 @@ activities, outcomes, customer file submitted.
 ```
 
 ###### Schedule
-
+```
 Week 1: 
     day 1-2 
     [ ] Loging page (model {user}, forms {sign in}, views {signin, signout, changepassword}, template {base, frontpage})
@@ -106,4 +106,4 @@ Week 3:
     [ ] Home page Customer tab   outcomes tab 
     [ ] Home page Customer tab   exit tab 
     Polish, troubleshoot, etc 
-
+```
