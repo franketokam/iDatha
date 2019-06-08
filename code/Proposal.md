@@ -86,25 +86,24 @@ activities, outcomes, customer file submitted.
 
 Week 1: 
     day 1-2 
-    - [x] Loging page (model {user}, forms {sign in}, views {signin, signout, changepassword}, template {base, frontpage})
+    [ ] Loging page (model {user}, forms {sign in}, views {signin, signout, changepassword}, template {base, frontpage})
     day 3-7 
-    - [ ] Home page: Home tab (company logo and welcome <h1>)
-    - [ ] Home page: Customer tab (model {profile,activity..}, forms {Searchform, Addform}, views {search, add}, template {customer})
-    - [ ] Home page: report tab (model {..}, views {}, template {canvas})
+    [ ] Home page: Home tab (company logo and welcome <h1>)
+    [ ] Home page: Customer tab (model {profile,activity..}, forms {Searchform, Addform}, views {search, add}, template {customer})
+    [ ] Home page: report tab (model {..}, views {}, template {canvas})
     
-
 Week 2:
-    - [ ] Home page Customer tab .. (model {profile,activity..}, forms {Demographic,activities,files, outcomes,exit}, views {..}, template {customer})
-    - [ ] Home page Customer tab demographic tab
-    - [ ] Home page Customer tab activities tab
-    - [ ] Home page Customer tab   files tab 
+    [ ] Home page Customer tab .. (model {profile,activity..}, forms {Demographic,activities,files, outcomes,exit}, views)
+    [ ] Home page Customer tab demographic tab
+    [ ] Home page Customer tab activities tab
+    [ ] Home page Customer tab   files tab 
 
 
 Break:
     Add CSS
 
 Week 3:
-    - [ ] Home page Customer tab   outcomes tab 
-    - [ ] Home page Customer tab   exit tab 
+    [ ] Home page Customer tab   outcomes tab 
+    [ ] Home page Customer tab   exit tab 
     Polish, troubleshoot, etc 
 
